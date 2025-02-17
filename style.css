@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #616CD6;
+    
+}
+.container{
+    padding: 50px;
+    
+}
+.login{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    font-family: sans-serif;
+    margin: 20px;
+    
+}
+.title{
+    font-family: "Dancing Script", serif;
+    color: white;
+    padding: 20px;
+    align-content: center;
+    font-size: x-large
+}
+.link{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin: 10px;
+}
+
+.login__link1 img ,.login__link2 img {
+    width: 20px;
+    margin-right: 8px;
+    
+    
+}
+.login__link1 {
+    border: solid #F8F7FC 10px;
+    background-color: #F8F7FC;
+    width: 100px;
+    align-items: center;
+    display: inline-flex;
+}
+.login__link2 {
+    border: solid #F8F7FC 10px;
+    background-color: #F8F7FC;
+    width: 100px;
+    align-items: center;
+    display: inline-flex;
+}
+.login__link1 a ,.login__link2 a{
+    text-decoration: none; 
+    color: black;
+}
+
+.box-1{
+    background-color: white;
+    color: black;
+    width: 300px;
+    height: auto;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+
+}
+.login__title h3 {
+    text-align: center;
+    padding: 10px;
+}
+
+
+.login-form{
+    padding: 5px;
+    margin: 5px; 
+    
+    
+}
+.login-form div {
+    padding: 5px;
+}
+
+.login-form__input{
+    border: solid #F8F7FC 5px;
+    background-color: #F8F7FC;
+    color: #929194;
+    padding: 10px;
+    width: 200px;
+}
+
+.login-form__button{
+    width: 100%;
+    background-color: #616CD6;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border-color: #616CD6;
+}
+.login-form__desc a {
+    text-decoration: none;
+    color: #616CD6;
+}
+.login-form__desc{
+    margin: 10px;
+    padding: 10px;
+}
